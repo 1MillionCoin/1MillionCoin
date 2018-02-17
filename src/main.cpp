@@ -1151,7 +1151,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees, int nHeight)
 {
     int64_t nSubsidy = 0 * COIN;
     if (pindexBest->nMoneySupply < MAX_MONEY){
-        if(pindexBest->nHeight >300) 
+        if(pindexBest->nHeight >400) 
         {
             nSubsidy = 138 * COIN;
         }else{
@@ -1166,7 +1166,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees, int nHeight)
 }
 
 
-static int64_t nTargetTimespan = 20 * 60;  // 30 mins
+static int64_t nTargetTimespan = 20 * 60;  // 20 mins
 
 //
 // maximum nBits value could possible be required nTime after
