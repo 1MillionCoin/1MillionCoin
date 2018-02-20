@@ -18,7 +18,7 @@
     - From block 1	    to  4749	13.8 1MC
     - From block 4750   to  end     0,5  1MC    
 
-- MASTERNODE REWARDS (90% FROM POS BLOCKS):
+- MASTERNODE REWARDS:
     - From block 1	    to  4749	 124.2 1MC
     - From block 4750   to  end     49,5   1MC    
 
