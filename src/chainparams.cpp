@@ -85,6 +85,15 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x6e7e35369784d0aceab9b53b6022829723385b7e9240bb66600db541d3a99fa7"));
 
         vSeeds.push_back(CDNSSeedData("n0", "188.166.118.40"));
+        vSeeds.push_back(CDNSSeedData("n1", "92.63.96.173:11110"));
+        vSeeds.push_back(CDNSSeedData("n2", "85.255.6.61:11110"));
+        vSeeds.push_back(CDNSSeedData("n3", "173.214.172.47:11110"));
+        vSeeds.push_back(CDNSSeedData("n4", "107.172.168.151:11110"));
+        vSeeds.push_back(CDNSSeedData("n5", "198.23.209.160:11110"));
+        vSeeds.push_back(CDNSSeedData("n6", "73.10.255.44:11110"));
+        vSeeds.push_back(CDNSSeedData("n7", "64.20.45.238:11110"));
+        vSeeds.push_back(CDNSSeedData("n8", "89.47.165.203:11110"));
+        vSeeds.push_back(CDNSSeedData("n9", "81.25.170.115:11110"));
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 115);
@@ -95,7 +104,7 @@ public:
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
-        nLastPOWBlock = 1000;
+        nLastPOWBlock = 5000;
     }
 
     virtual const CBlock &GenesisBlock() const { return genesis; }

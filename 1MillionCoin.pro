@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = 1MillionCoin-qt
-VERSION = 2.1.0.0
+VERSION = 3.0.0.0
 INCLUDEPATH += src src/json src/qt src/qt/plugins/mrichtexteditor
 DEFINES += ENABLE_WALLET
 DEFINES += BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
