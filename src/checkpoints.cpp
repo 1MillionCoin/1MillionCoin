@@ -26,12 +26,12 @@ namespace Checkpoints
     // + Contains no strange transactions
     //
     static MapCheckpoints mapCheckpoints = boost::assign::map_list_of
-        (0,   uint256("0xaf1e3646b449968861d36e24f7ec00c65e136cf8683e282db63f95fc7922264c"));
-        (1,   uint256("0x000001d532dc0bacc3b5a9d16d2fc1c031f34df73124aa479ef571c584eb8547"));
-        (1000,   uint256("0x583128b95a0a8a950f526922cd9686aede9388fe98b75241ca76232dd0e2d41b"));
-        (2000,   uint256("0x516571626d2b7c0cdd4fe187408ffed25ed0c22635f39db42f70c050e8c7d620"));
-        (3000,   uint256("0x5403dddddc4c1c9167aa6ea9032207e585508f3d1d0a9003fa5ab6b34285b97c"));
-        (4000,   uint256("0xccadb4aef42b352a6ef2dd82930685dcf0bb9d56d0db0b88506894b0048f4e94"));
+        (0,   uint256("0xaf1e3646b449968861d36e24f7ec00c65e136cf8683e282db63f95fc7922264c"))
+        (1,   uint256("0x000001d532dc0bacc3b5a9d16d2fc1c031f34df73124aa479ef571c584eb8547"))
+        (1000,   uint256("0x583128b95a0a8a950f526922cd9686aede9388fe98b75241ca76232dd0e2d41b"))
+        (2000,   uint256("0x516571626d2b7c0cdd4fe187408ffed25ed0c22635f39db42f70c050e8c7d620"))
+        (3000,   uint256("0x5403dddddc4c1c9167aa6ea9032207e585508f3d1d0a9003fa5ab6b34285b97c"))
+        (4000,   uint256("0xccadb4aef42b352a6ef2dd82930685dcf0bb9d56d0db0b88506894b0048f4e94"))
         (4500,   uint256("0xb21a273ec5934f0092d8ca5f2c1bba6fd1d1e923ec449732ae980e49dbeebcfc"));
        
     // TestNet has no checkpoints
